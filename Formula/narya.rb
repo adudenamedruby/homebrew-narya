@@ -1,7 +1,7 @@
 class Narya < Formula
   desc "CLI tool for managing firefox-ios"
   homepage "https://github.com/adudenamedruby/narya"
-  version "20260120.0"
+  version "20260131.0"
 
   depends_on "swiftlint"
   depends_on "node"
@@ -11,10 +11,10 @@ class Narya < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "#{base_url}/narya-v#{version}-macos-arm64.tar.gz"
-      sha256 "48eb460bc9c1b6b1531a5ec6aeee703969bcdab68ab788a58a83644c207eb14f"
+      sha256 "4b9911f662a4da6ee6334f8f9917d51f3001803ff3016ef27d9e3da0c4333310"
     else
       url "#{base_url}/narya-v#{version}-macos-x86_64.tar.gz"
-      sha256 "e211964727089f667754c77b8f9ae8d786be83e0f75f50b1c5a6dc3722275ad0"
+      sha256 "d46f81ebb04c68fffa7060bb11563d451040994ef48b39caa7fbe3d620f2c21c"
     end
   end
 
