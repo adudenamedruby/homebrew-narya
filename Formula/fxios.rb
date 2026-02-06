@@ -4,6 +4,7 @@ class Fxios < Formula
   version "20260205.0"
 
   depends_on "swiftlint"
+  depends_on "licenseplist"
   depends_on "node"
 
   base_url = "https://github.com/adudenamedruby/fxios-ctl/releases/download/v#{version}"
