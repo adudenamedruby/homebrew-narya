@@ -1,7 +1,7 @@
 class Fxios < Formula
   desc "CLI tool for managing firefox-ios"
   homepage "https://github.com/adudenamedruby/fxios-ctl"
-  version "20260205.0"
+  version "20260206.1"
 
   depends_on "swiftlint"
   depends_on "node"
@@ -11,10 +11,10 @@ class Fxios < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "#{base_url}/fxios-v#{version}-macos-arm64.tar.gz"
-      sha256 "eb80b14007095ab2fef84ac4afadc76b8104ef790a473beb75a9f8ff79e45a7b"
+      sha256 "785f402bbb94d950952b94794861aa3fa1bd242d8a79023b862c17ac32a53ae8"
     else
       url "#{base_url}/fxios-v#{version}-macos-x86_64.tar.gz"
-      sha256 "97d4869f2d4c746c19f41deb44d2ad340f607aec319ea92b212707400a293342"
+      sha256 "fe65dd892f9dea4ca4a35415ebfc152a3cef4807a0507704f6f68aa60c03af99"
     end
   end
 
