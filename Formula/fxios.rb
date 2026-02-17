@@ -1,12 +1,12 @@
 class Fxios < Formula
   desc "CLI tool for managing firefox-ios"
-  homepage "https://github.com/adudenamedruby/fxios-ctl"
+  homepage "https://github.com/mozilla-mobile/fxios-ctl"
   version "20260213.0"
 
   depends_on "swiftlint"
   depends_on "node"
 
-  base_url = "https://github.com/adudenamedruby/fxios-ctl/releases/download/v#{version}"
+  base_url = "https://github.com/mozilla-mobile/fxios-ctl/releases/download/v#{version}"
 
   on_macos do
     if Hardware::CPU.arm?
