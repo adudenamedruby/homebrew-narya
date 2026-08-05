@@ -3,7 +3,6 @@ class Fxios < Formula
   homepage "https://github.com/mozilla-mobile/fxios-ctl"
   version "20260629.0"
 
-  depends_on "swiftlint"
   depends_on "node"
 
   base_url = "https://github.com/mozilla-mobile/fxios-ctl/releases/download/v#{version}"
